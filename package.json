@@ -1,0 +1,12 @@
+{
+  "name": "developer-portfolio-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix portfolio/server install && npm --prefix portfolio/client install",
+    "dev:server": "npm --prefix portfolio/server run dev",
+    "dev:client": "npm --prefix portfolio/client run dev",
+    "build": "npm --prefix portfolio/server run build && npm --prefix portfolio/client run build",
+    "seed": "npm --prefix portfolio/server run seed"
+  }
+}
